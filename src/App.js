@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "styled-components";
+import Nft from "./components/Nft";
+
+const theme = {
+  neutral: {
+    VerydarkbluemainBG: "hsl(217, 54%, 11%)",
+    VerydarkbluecardBG: "hsl(216, 50%, 16%)",
+    Verydarkblueline: "hsl(215, 32%, 27%)",
+    White: "hsl(0, 0%, 100%)",
+  },
+  primary: {
+    Softblue: "hsl(215, 51%, 70%)",
+    Cyan: " hsl(178, 100%, 50%)",
+  },
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Nft />
+    </ThemeProvider>
   );
 }
 
