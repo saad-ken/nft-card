@@ -60,6 +60,7 @@ export const Avatar = styled.img`
   width: 30px;
   border: 1px solid ${({ theme }) => theme.neutral.White};
   border-radius: 50%;
+  margin-right: 1.2em;
 `;
 
 export const Title = styled.div`
@@ -107,7 +108,6 @@ export const Creator = styled.div`
   display: flex;
   padding-bottom: 20px;
   transform: translateY(28%);
-  gap: 1.2em;
   justify-content: flex-start;
   align-items: center;
 
