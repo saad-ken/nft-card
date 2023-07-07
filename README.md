@@ -1,4 +1,4 @@
-frontend mentor challenge in react with styled components
+frontend mentor challenge in react with styled components.
 no hover
 ![Capture](https://github.com/saad-ken/nft-card/assets/88442215/c007f6ba-e356-4b8c-839d-437e0b8a7cd3)
 with hover effect 
